@@ -1,0 +1,53 @@
+.dialogs {
+    width: 100%;
+}
+.dialogs__list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.dialogs__chat {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    background-color: rgb(210, 226, 226);
+}
+.dialogs__photo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dialogs__photo-photo {
+    border: 10px solid rgb(210, 226, 226);
+    border-radius: 45%;
+    height: 95%;
+    width: auto;
+}
+.dialogs__info {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.dialogs__name {
+}
+.dialogs__name-name {
+    font-size: 0.8rem;
+}
+.dialogs__lastmessage {
+}
+.dialogs__lastmessage-last {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.6rem;
+    margin: 0;
+}
+.dialogs__date {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    font-size: 0.8rem;
+}
+.dialogs__date-date {
+}

@@ -1,0 +1,18 @@
+.header {
+    height: 6%;
+    background-color:plum ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+.header__name {
+    height: 100%;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+}
+.header__name-name {
+    margin: 0;
+    font-size: 24px;
+}
+
