@@ -2,11 +2,16 @@
 {
 box-sizing: border-box;
 }
+:root {
+    --clrChat: rgb(51, 51, 51);
+    --clrChatH: rgb(66, 66, 66);
+  }
 body{
+    overflow: hidden;
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: azure;
 }

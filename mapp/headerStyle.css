@@ -1,13 +1,14 @@
 .header {
     height: 6%;
-    background-color:plum ;
+    background-color:rgb(31, 31, 31) ;
     display: flex;
     justify-content: space-between;
     padding: 0px 10%;
+    color: aliceblue;
 }
 .header__name {
     height: 100%;
-    align-self: flex-end;
+    align-self: center;
     display: flex;
     align-items: center;
 }
@@ -15,4 +16,13 @@
     margin: 0;
     font-size: 24px;
 }
-
+.header__back{
+    width: 5%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__back:hover{
+    cursor: pointer;
+}

@@ -1,16 +1,32 @@
 .dialogs {
     width: 100%;
+    min-height: 94vh;
+    max-height: 94vh;
+    overflow: auto;
+    background-color: rgb(87, 87, 87);
 }
 .dialogs__list {
     width: 100%;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px 3px 0;
     margin: 0;
 }
 .dialogs__chat {
     width: 100%;
     height: 10vh;
     display: flex;
-    background-color: rgb(210, 226, 226);
+    background-color: var(--clrChat);
+    border-radius: 10px;
+}
+
+.dialogs__chat:hover{
+    background-color: var(--clrChatH);
+    cursor: pointer;
+}
+.dialogs__chat:hover .dialogs__photo-photo{
+    border: 10px solid var(--clrChatH);
 }
 .dialogs__photo {
     width: 20%;
@@ -20,7 +36,7 @@
     align-items: center;
 }
 .dialogs__photo-photo {
-    border: 10px solid rgb(210, 226, 226);
+    border: 10px solid var(--clrChat);
     border-radius: 45%;
     height: 95%;
     width: auto;
@@ -33,12 +49,14 @@
 .dialogs__name {
 }
 .dialogs__name-name {
+    color: aliceblue;
     font-size: 0.8rem;
 }
 .dialogs__lastmessage {
 }
 .dialogs__lastmessage-last {
-    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 0.6rem;
     margin: 0;
 }
@@ -50,4 +68,13 @@
     font-size: 0.8rem;
 }
 .dialogs__date-date {
+}
+
+.dialogs__in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dialogs__sms {
+    color: aliceblue;
 }
